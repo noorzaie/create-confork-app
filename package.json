@@ -1,6 +1,6 @@
 {
     "name": "create-confork-app",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A command line tool to create confork projects",
     "keywords": [ "node.js", "javascript", "typescript", "framework", "rest", "restful", "web", "http", "api" ],
     "author": {
