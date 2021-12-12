@@ -111,6 +111,8 @@ export const writeTemplateFiles = async (projectName: string, hasEslint: boolean
 		await writeKoaTemplateFiles(projectName);
 		writeConfigurableFile(projectName, 'config/router', { 'interface': '@koa/router' });
 	}
+
+	createGitignoreFile(projectName);
 };
 
 export const createProjectDir = async (projectName: string) => {
@@ -123,4 +125,8 @@ export const checkIfDirExists = (dirName: string): boolean => {
 
 export const removeProjectDir = (projectName: string) => {
 	rmdirSync(projectName, { recursive: true })
+};
+
+const createGitignoreFile = (projectName: string) => {
+	writeFileSync(`${projectName}/.gitignore`, '.env\n' + 'node_modules\n');
 };
