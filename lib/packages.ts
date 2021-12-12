@@ -62,7 +62,7 @@ const dbDevDependencies = {
 };
 
 const aqsTypeormDependencies = {
-	'aqs-typeorm': '^1.0.0'
+	'aqs-typeorm': '^1.0.1'
 };
 
 const packageJsonObject = {
@@ -93,9 +93,9 @@ const packageJsonObject = {
 	'dependencies': {
 		'ajv': '^8.6.3',
 		'ajv-formats': '^2.1.1',
-		'aqs': '^1.0.0',
+		'aqs': '^1.0.6',
 		'awilix': '^5.0.1',
-		'confork-core': '^1.0.2',
+		'confork-core': '^1.0.3',
 		'colors': '^1.4.0',
 		'dotenv': '^10.0.0',
 		'i18n': '^0.13.3',
