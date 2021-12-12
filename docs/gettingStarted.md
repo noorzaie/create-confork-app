@@ -2,7 +2,7 @@
 You can create new project using `create-confork-app` cli:
 
 ```shell script
-npm init create-confork-app project-name
+npm init confork-app project-name
 ```
 
 By running this command, multiple options will be prompted:
