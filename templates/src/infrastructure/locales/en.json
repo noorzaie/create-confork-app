@@ -1,0 +1,36 @@
+{
+	"validation": {
+		"wrong": "{{resource}} is incorrect!",
+		"duplicate": "{{resource}} already exists!",
+		"required": "{{resource}} is required!",
+		"minLength": "{{resource}} length should be at least {{limit}}!",
+		"maxLength": "{{resource}} length should be at max {{limit}}!",
+		"pattern": "{{resource}} format is incorrect!",
+		"type": "{{resource}} should be a {{type}}!",
+		"exclusiveMinimum": "{{resource}} should be at least {{limit}}!",
+		"exclusiveMaximum": "{{resource}} should be at max {{limit}}!",
+		"enum": "{{resource}} should be in {{allowedValues}}!",
+		"maximum": "{{resource}} should be less than {{limit}}!",
+		"minimum": "{{resource}} should be more than {{limit}}!",
+		"minItems": "{{resource}} should contain at least {{limit}} items!",
+		"maxSize": "File size should be less than {{limit}} MB!",
+		"fileType": "File type should be {{resource}}!",
+		"format": "validation.format"
+	},
+	"resources": {
+		"user": "User"
+	},
+	"errors": {
+		"notFound": "{{resource}} not found!",
+		"internalServer": "Some error occurred!",
+		"validation": "Your data is invalid!"
+	},
+	"dbErrors": {
+		"23502": "Field could not be null!",
+		"23505": "Item already exists!",
+		"42601": "dbErrors.42601",
+		"42702": "dbErrors.42702",
+		"42703": "dbErrors.42703",
+		"columnNotFound": "Column not found!"
+	}
+}

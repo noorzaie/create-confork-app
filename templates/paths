@@ -1,0 +1,9 @@
+export default {
+    customRouter: 'src/interface/{interface}/customRouter',
+    actionInputHandlers: 'src/interface/utils/handlers/actionInputHandlers',
+    responseHandlers: 'src/interface/utils/handlers/responseHandlers',
+    registerHandlers: 'src/interface/utils/handlers/registerHandlers',
+    edgeResponseHandlers: 'src/interface/{interface}/edgeResponseHandlers',
+    actionFalseConditionHandlers: 'src/interface/{interface}/falseConditionHandlers',
+    errorHandlers: 'src/interface/{interface}/middlewares/errorHandlers'
+};

@@ -1,0 +1,12 @@
+import type Koa from 'koa';
+import type Router from '@koa/router';
+import type { CustomKoaRouterType } from 'confork-core';
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const customRouter: CustomKoaRouterType = (router: Router, app: Koa) => {
+	/* router.get('/example', (ctx, next) => {
+		ctx.body = 'example';
+	}); */
+};
+
+export default customRouter;

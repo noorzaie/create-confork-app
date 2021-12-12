@@ -1,0 +1,5 @@
+import { RouteType } from 'confork-core';
+
+const routes: RouteType[] = [];
+
+export default routes;

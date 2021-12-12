@@ -1,0 +1,13 @@
+import { KoaErrorHandlerType } from 'confork-core';
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const handler: KoaErrorHandlerType = async (ctx, next) => {
+	try {
+		await next();
+	} catch (error: unknown) {
+		ctx.response.status = 500;
+		ctx.response.body = 'error';
+	}
+};
+
+export default handler;

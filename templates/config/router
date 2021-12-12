@@ -1,0 +1,5 @@
+import type { RouterOptions } from '{interface}';
+
+const config: RouterOptions = {};
+
+export default config;

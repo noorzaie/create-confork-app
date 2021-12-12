@@ -1,0 +1,8 @@
+import { KoaRegisterHandlerType } from 'confork-core';
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const handler: KoaRegisterHandlerType = (fields) => (ctx, next) => {
+	//
+};
+
+export default handler;
