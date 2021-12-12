@@ -51,7 +51,7 @@ const koaTemplateFiles = [
 const otherTemplateFiles = [
 	'src/infrastructure/locales/en.json',
 	// '.eslintrc.js',
-	'.gitignore',
+	// '.gitignore',
 	'tsconfig.json',
 	'.env.example',
 	// '.npmrc'    // TODO: remove

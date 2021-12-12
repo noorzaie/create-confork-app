@@ -95,7 +95,7 @@ const packageJsonObject = {
 		'ajv-formats': '^2.1.1',
 		'aqs': '^1.0.0',
 		'awilix': '^5.0.1',
-		'confork-core': '^1.0.1',
+		'confork-core': '^1.0.2',
 		'colors': '^1.4.0',
 		'dotenv': '^10.0.0',
 		'i18n': '^0.13.3',
